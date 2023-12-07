@@ -5,6 +5,8 @@ import { LuGraduationCap } from "react-icons/lu";
 import corpcommentImg from "@/public/corpcomment.png";
 import rmtdevImg from "@/public/rmtdev.png";
 import wordanalyticsImg from "@/public/wordanalytics.png";
+import eliteImg from "@/public/ELite2.png"
+import balloxImg from "@/public/Ballox.png"
 
 export const links = [
   {
@@ -64,37 +66,37 @@ export const projectsData = [
   {
     title: "E-Lite App",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
+      "Mobile application serving as an intermediary platform connecting part-time job seekers and recruiters. I worked as a backend developer on this project for 5 months.",
     tags: ["FastAPI", "MongoDB"],
-    imageUrl: corpcommentImg,
+    imageUrl: eliteImg,
   },
   {
     title: "GasDetector App",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
+      "Web application designed to monitor indoor air quality for gas leaks. I worked as a backend developer on this project for a week.",
     tags: ["FastAPI", "MongoDB", "Postman"],
     imageUrl: rmtdevImg,
   },
   {
     title: "BlueCafeteria DB",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
+      "Microsoft Access database for cafeteria operations, enabling seamless customer preorders. I led the creation of data flow and E-R diagrams, and implemented normalization.",
     tags: ["Microsoft Access", "Miro"],
     imageUrl: wordanalyticsImg,
   },
   {
     title: "KU Feedback UI",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
+      "Mobile application UI aimed at assisting teachers in gauging student comprehension through a feedback mechanism and providing a calendar for tracking of assignments and exams.",
     tags: ["Figma", "Miro"],
     imageUrl: wordanalyticsImg,
   },
   {
     title: "BalloxAR Game",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
+      "Mobile AR game from Unity. The objective was to strategically throw balls to topple surrounding boxes for maximum points, with increasing difficulty levels.",
     tags: ["Unity"],
-    imageUrl: wordanalyticsImg,
+    imageUrl: balloxImg,
   },
 ] as const;
 
