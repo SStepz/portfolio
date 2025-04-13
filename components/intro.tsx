@@ -3,7 +3,7 @@
 import Image from 'next/image'
 import React from 'react'
 import { motion } from 'framer-motion'
-import SIcon from '@/public/MyOldPic.jpg'
+import SIcon from '@/public/MyNewPic.jpg'
 import Link from 'next/link'
 import { BsArrowRight, BsLinkedin, BsGithub } from 'react-icons/bs'
 import { HiDownload } from 'react-icons/hi'
@@ -11,14 +11,14 @@ import { FaGithubSquare } from 'react-icons/fa'
 
 export default function Intro() {
   return (
-    <section className='mb-28 max-w-[55rem] text-center sm:mb-0'>
+    <section className='mb-28 max-w-[50rem] text-center sm:mb-0'>
       <div className='flex items-center justify-center'>
         <div className='relative'>
           <motion.div
             initial={{ opacity: 0, scale: 0 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{
-              type: 'tween',
+              type: 'spring',
               duration: 0.2
             }}
           >
@@ -29,22 +29,25 @@ export default function Intro() {
               height='192'
               quality='95'
               priority={true}
-              className='h-24 w-24 rounded-full object-cover border-[0.35rem] border-white shadow-xl shadow-white/[0.15]'
+              className='h-24 w-24 rounded-full object-cover border-[0.35rem] border-white shadow-xl'
             />
           </motion.div>
         </div>
       </div>
 
       <motion.h1 
-        className='mb-10 mt-4 px-4 text-2xl font-medium !leading-[1.5] sm:text-4xl'
+        className='mb-10 mt-4 px-4 text-2xl font-medium !leading-[1.5] sm:text-3xl'
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
       >
-        <span className='font-bold'>Hi, My name is Chaitavat Seenumngurn</span>. I'm a{" "}
-        <span className='font-bold'>university student</span> looking forward to be a{" "}
-        <span className='font-bold'>backend developer</span>. I enjoy building{" "}
-        <span className='italic'>apps & sites</span>. My focus at the moment is{" "}
-        <span className='underline'>Python (FastAPI)</span>.
+        <span className='font-bold'>Hi, I'm Chaitavat,</span> a soon-to-be graduate with experience in{" "}
+        <span className='font-bold'>full-stack development.</span> I've worked mainly on{" "}
+        <span className='font-bold'>front-end</span> using Flutter during internships and part-time jobs, while most of my personal projects focused on the{" "}
+        <span className='font-bold'>back-end</span>. My current stack includes{" "}
+        <span className='italic'>Flutter, Python, FastAPI, React, Next.js, and MongoDB</span>. I'm now diving deeper into{" "}
+        <span className='underline'>React</span> and learning {" "}
+        <span className='underline'>Go</span> to grow my skills. I'm currently looking for a{" "}
+        <span className='font-bold'>full-time</span> front-end role, with an interest in back-end opportunities as well.
       </motion.h1>
 
       <motion.div
@@ -57,7 +60,7 @@ export default function Intro() {
       >
         <Link
           href='#contact'
-          className='group text-slate-800 bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 hover:bg-slate-100 active:scale-105 transition'
+          className='group bg-slate-800 text-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 hover:bg-slate-900 active:scale-105 transition'
         >
           Contact me here{" "}
           <BsArrowRight className='opacity-70 group-hover:translate-x-1 transition' />
@@ -72,16 +75,16 @@ export default function Intro() {
           <HiDownload className='opacity-60 group-hover:translate-y-1 transition' />
         </a>
         
-        {/* <a 
-          className='bg-white text-slate-700 p-4 hover:text-slate-950 flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer border border-black/10'
-          href='https://linkedin.com'
+        <a 
+          className='bg-white text-slate-700 p-4 hover:text-slate-900 flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer border border-black/10'
+          href='https://linkedin.com/in/chaitavatseenumngurn/'
           target='_blank'
         >
           <BsLinkedin />
-        </a> */}
+        </a>
         
         <a
-          className='bg-white text-slate-700 p-4 flex items-center gap-2 text-[1.35rem] rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-slate-950 active:scale-105 transition cursor-pointer border border-black/10'
+          className='bg-white text-slate-700 p-4 flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-slate-900 active:scale-105 transition cursor-pointer border border-black/10'
           href='https://github.com/SStepz'
           target='_blank'
         >

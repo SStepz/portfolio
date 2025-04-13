@@ -13,20 +13,23 @@ export default function About() {
     >
       <SectionHeading>About me</SectionHeading>
       <p className='mb-3'>
-        After studying in{" "}
-        <span className="font-medium">Computer Engineering</span> for 3 years, I decided to pursue my passion for software engineering. I'm currently improving my{" "}
-        <span className="font-medium">backend development</span> skills.{" "}
-        <span className="italic">My favorite part of programming</span> is the problem-solving part. The feeling of finally figuring out a solution to a problem after you've been struggling with it for a long time is the best. My core stack is{" "}
+        As I approach graduation in{" "}
+        <span className="font-medium">Computer Engineering</span> at Kasetsart University, I've decided to pursue my passion for software engineering. I'm currently focused on improving my{" "}
+        <span className="font-medium">full-stack development</span> skills.{" "}
+        <span className="italic">My favorite part of programming</span> is the problem-solving. The satisfaction of finally cracking a tough problem after hours of thinking is unbeatable.
+      </p>
+      <p className='mb-3'>
+        My core tech stack includes{" "}
         <span className="font-medium">
-          Python, FastAPI, and MongoDB
+        Flutter, Python, FastAPI, React, Next.js, and MongoDB
         </span>
-        . I am also familiar with C, C++ and C#. I am always looking to learn new technologies. I am currently looking for a{" "}
-        <span className="font-medium">intern position</span> as a backend developer.
+        . I'm also familiar with C, C++ and C#. I'm always eager to learn new technologies and improve my skills. Right now, I'm currently looking for a{" "}
+        <span className="font-medium">full-time position</span> as a front-end developer.
       </p>
       <p>
-        <span className="italic">When I'm not coding</span>, I enjoy playing video games and watching various entertainments such as movies, series, and anime. I also enjoy{" "}
-        <span className="font-medium">learning new things</span>. I am currently
-        learning how to play{" "}
+        <span className="italic">When I'm not coding</span>, I enjoy playing video games and watching various kinds of entertainments such as movies, series, and anime. I also love{" "}
+        <span className="font-medium">learning new things</span> and am currently
+        teaching myself how to play the{" "}
         <span className="font-medium">guitar and piano</span>.
       </p>
     </motion.section>

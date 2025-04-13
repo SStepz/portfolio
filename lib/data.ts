@@ -2,11 +2,10 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import corpcommentImg from "@/public/corpcomment.png";
-import rmtdevImg from "@/public/rmtdev.png";
-import wordanalyticsImg from "@/public/wordanalytics.png";
-import eliteImg from "@/public/ELite2.png"
-import balloxImg from "@/public/Ballox.png"
+import watcherImg from "@/public/Watcher.png";
+import eliteImg from "@/public/ELite2.png";
+import gasDetectorImg from "@/public/GasDetector.png";
+import kufeedbackImg from "@/public/KUFeedbackZoom.png";
 
 export const links = [
   {
@@ -64,7 +63,14 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: "E-Lite App",
+    title: "Watcher Web App",
+    description:
+      "Web application for tracking entertainment media and delivering personalized recommendations. I worked as a backend developer on this project, assisted in UI design, and key feature structuring.",
+    tags: ["FastAPI", "MongoDB"],
+    imageUrl: watcherImg,
+  },
+  {
+    title: "E-Lite Mobile App",
     description:
       "Mobile application serving as an intermediary platform connecting part-time job seekers and recruiters. I worked as a backend developer on this project for 5 months.",
     tags: ["FastAPI", "MongoDB"],
@@ -75,49 +81,40 @@ export const projectsData = [
     description:
       "Web application designed to monitor indoor air quality for gas leaks. I worked as a backend developer on this project for a week.",
     tags: ["FastAPI", "MongoDB", "Postman"],
-    imageUrl: rmtdevImg,
-  },
-  {
-    title: "BlueCafeteria DB",
-    description:
-      "Microsoft Access database for cafeteria operations, enabling seamless customer preorders. I led the creation of data flow and E-R diagrams, and implemented normalization.",
-    tags: ["Microsoft Access", "Miro"],
-    imageUrl: wordanalyticsImg,
+    imageUrl: gasDetectorImg,
   },
   {
     title: "KU Feedback UI",
     description:
-      "Mobile application UI aimed at assisting teachers in gauging student comprehension through a feedback mechanism and providing a calendar for tracking of assignments and exams.",
+      "I designed mobile application UI aimed at assisting teachers in gauging student comprehension through a feedback mechanism and a calendar for tracking.",
     tags: ["Figma", "Miro"],
-    imageUrl: wordanalyticsImg,
-  },
-  {
-    title: "BalloxAR Game",
-    description:
-      "Mobile AR game from Unity. The objective was to strategically throw balls to topple surrounding boxes for maximum points, with increasing difficulty levels.",
-    tags: ["Unity"],
-    imageUrl: balloxImg,
+    imageUrl: kufeedbackImg,
   },
 ] as const;
 
 export const skillsData = [
-  "HTML",
-  "CSS",
+  "Dart",
+  "Flutter",
+  "Python",
+  "FastAPI",
   "JavaScript",
   "TypeScript",
   "React",
   "Next.js",
   "Node.js",
-  "Git",
+  "HTML",
+  "CSS",
   "Tailwind",
-  "Prisma",
+  "C",
+  "C++",
+  "C#",
+  "Git",
+  "Docker",
   "MongoDB",
-  "Redux",
-  "GraphQL",
-  "Apollo",
-  "Express",
-  "PostgreSQL",
-  "Python",
-  "Django",
-  "Framer Motion",
+  "Postman",
+  "Unity",
+  "Figma",
+  "Trello",
+  "ClickUp",
+  "Miro",
 ] as const;
