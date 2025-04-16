@@ -65,15 +65,15 @@ export const projectsData = [
   {
     title: "Watcher Web App",
     description:
-      "Web application for tracking entertainment media and delivering personalized recommendations. I worked as a backend developer on this project, assisted in UI design, and key feature structuring.",
-    tags: ["FastAPI", "MongoDB"],
+      "Web application for tracking entertainment media and delivering recommendations. I worked as a backend developer on this project and assisted in UI design.",
+    tags: ["Python", "FastAPI", "MongoDB", "Docker", "Figma", "DigitalOcean"],
     imageUrl: watcherImg,
   },
   {
     title: "E-Lite Mobile App",
     description:
       "Mobile application serving as an intermediary platform connecting part-time job seekers and recruiters. I worked as a backend developer on this project for 5 months.",
-    tags: ["FastAPI", "MongoDB"],
+    tags: ["FastAPI", "MongoDB", "Figma"],
     imageUrl: eliteImg,
   },
   {
