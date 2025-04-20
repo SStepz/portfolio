@@ -38,7 +38,7 @@ export const experiencesData = [
     title: "T.C.C. Technology Co., Ltd.",
     role: "Full Stack Developer (Intern & Part-time)",
     description:
-      "Contributed to the frontend development of an in-store sales management mobile application using Flutter and Dart with the MVVM (Model-View-ViewModel) design pattern.",
+      "Contributed to the frontend development of an in-store sales management mobile application using Flutter and Dart with the MVVM (Model-View-ViewModel) design pattern. Worked in an Agile environment, participating in daily stand-up meetings and sprint planning sessions.",
     icon: React.createElement(CgWorkAlt),
     date: "Apr 2024 - Nov 2024",
   },
@@ -46,7 +46,7 @@ export const experiencesData = [
     title: "Kasetsart University",
     role: "Computer Engineering Student",
     description:
-      "Completed coursework for a Bachelor's degree in Computer Engineering with a GPA of 3.43. Currently in the process of graduating.",
+      "Completed coursework for a Bachelor's degree in Computer Engineering with a GPA of 3.43 (Second Class Honors). Currently in the process of graduating.",
     icon: React.createElement(LuGraduationCap),
     date: "Jun 2021 - Present",
   },
