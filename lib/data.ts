@@ -48,7 +48,7 @@ export const experiencesData = [
     description:
       "Completed coursework for a Bachelor's degree in Computer Engineering with a GPA of 3.43 (Second Class Honors). Currently in the process of graduating.",
     icon: React.createElement(LuGraduationCap),
-    date: "Jun 2021 - Present",
+    date: "Jun 2021 - May 2025",
   },
 ] as const;
 
